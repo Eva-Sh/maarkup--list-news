@@ -1,0 +1,242 @@
+extends templates/layout
+block vars
+  - var ogtitle = 'Test';
+
+
+block content
+  .content-wrapper 
+    .container 
+      .content-block
+        .content-block__title 
+          img(src='images/icon_people.png', alt='icon_title', class="image")
+          span.text people
+        .content-block__table
+          .table-header 
+            .table-header__item.table-header__item--one Ideas
+            .table-header__item.table-header__item--two Following
+            .table-header__item.table-header__item--three Followers
+          .table-master
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 333
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 3
+                .table-line__item.table-line__item--four 51150
+                .table-line__item.table-line__item--five 77
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 999
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 10
+                .table-line__item.table-line__item--four 600
+                .table-line__item.table-line__item--five 70000
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 73
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 30
+                .table-line__item.table-line__item--four 70
+                .table-line__item.table-line__item--five 3
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 20
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 6
+                .table-line__item.table-line__item--four 6
+                .table-line__item.table-line__item--five 7
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 74
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 30
+                .table-line__item.table-line__item--four 990
+                .table-line__item.table-line__item--five 71
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 6
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 84
+                .table-line__item.table-line__item--four 30
+                .table-line__item.table-line__item--five 744
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 3
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 9894
+                .table-line__item.table-line__item--four 230
+                .table-line__item.table-line__item--five 30
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 8447
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 64
+                .table-line__item.table-line__item--four 311
+                .table-line__item.table-line__item--five 8989
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_2.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+            .table-master__line.table-line.table-line--hidden
+              .table-line__item.table-line__item--one(style="background-image: url('images/men_1.jpg'); background-repeat: no-repeat; background-size: contain;") 
+              .table-line__item.table-line__item--two 
+                .top-line 
+                  .top-line__item.top-line--name John Adams
+                  .top-line__item.top-line--icon(data-status='follow') 
+                .bottom-line 
+                  .bottom-line__item.bottom-line--icon 
+                  .bottom-line__item.bottom-line--count 102
+              .table-line__item.table-line__item--wrapper-row    
+                .table-line__item.table-line__item--three 0
+                .table-line__item.table-line__item--four 50
+                .table-line__item.table-line__item--five 0
+          .table-button
+            .table-button__wrapper-text show more
+            
